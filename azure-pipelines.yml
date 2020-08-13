@@ -116,7 +116,7 @@ stages:
   dependsOn: Test
   jobs:
   - deployment: Deploy
-    pool:
+  pool:
     vmImage: 'ubuntu-18.04'
     environment: staging
     variables:
